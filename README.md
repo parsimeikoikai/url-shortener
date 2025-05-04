@@ -70,7 +70,7 @@ yarn test
 | id             | int8       | Primary Key, Auto Increment |
 | short_code     | text       | Unique                   |
 | original_url   | text       | Required                 |
-| click_count    | int8       | Default: 0               |
+| visit_count    | int8       | Default: 0               |
 | created_at     | timestamptz | Default: now()           |
 | last_accessed  | timestamptz | Nullable                 |
 ```
